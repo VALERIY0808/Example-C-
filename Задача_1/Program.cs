@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите метод, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
 Console.WriteLine("Hello, World!");
