@@ -1,6 +1,6 @@
 ﻿// Напишите метод, который выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
-int GetNumber (int value);{
-Console.WriteLine("Вводим случайного числа");
+int GetNumber ()
+{
 int value = new Random().Next(10,100);
 int a = value / 10;
 int b = value % 10;
@@ -9,3 +9,4 @@ int max = a;
  if (b>max) max=b;
  return max;
  }
+System.Console.WriteLine(GetNumber ());
