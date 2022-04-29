@@ -10,7 +10,8 @@ int Method(int x)
             {
                 x = x/100;
                 x = x % 10;
-                x = -x;
+                int a = -x;
+                Console.WriteLine($"Вторая цифра числа {x} =  {a}");
                 return x;
             }
             else
@@ -35,4 +36,3 @@ int Method(int x)
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int contr = Method(number);
-Console.WriteLine($"Вторая цифра числа {number} =  {contr}");
